@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name emms_key)(type Legacy)(uri ${KIPRJMOD}/emms_key.lib)(options "")(descr ""))
+  (lib (name SDINBDG4-8G)(type Legacy)(uri ${KIPRJMOD}/SDINBDG4-8G/SDINBDG4-8G.lib)(options "")(descr ""))
+)

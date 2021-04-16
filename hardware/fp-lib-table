@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name emmc_key)(type KiCad)(uri ${KIPRJMOD}/emmc_key.pretty)(options "")(descr ""))
+)

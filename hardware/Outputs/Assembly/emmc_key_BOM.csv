@@ -1,0 +1,3 @@
+Reference, Quantity, Value, Footprint, Datasheet, Description, Manufacturer, Part Number, Price [1k]
+C1 C2 C3 ,3,2.2uF,Capacitor_SMD:C_0603_1608Metric,https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf,CAP CER 2.2UF 10V X7R 0603,KEMET,C0603C225K8RACTU,0.059
+U1 ,1,EMMC Module,emmc_key:BGA153N50P14X14_1150X1300X80,https://datasheet.lcsc.com/szlcsc/2004271813_TOSHIBA-THGBMJG6C1LBAIL_C524518.pdf,"EMMC FLASH MODULE, 256GBIT 153FBGA",KIOXIA,THGAMRG8T13BAIL,11

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:\Workspace\Nebra\emmc\Design\emmc_key.sch</source>
+    <date>4/16/2021 12:42:33 PM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Nebra EMMC Key</title>
+        <company>Nebra Ltd</company>
+        <rev>1.0</rev>
+        <date>2021-04-16</date>
+        <source>emmc_key.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>EMMC Module</value>
+      <footprint>emmc_key:BGA153N50P14X14_1150X1300X80</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2004271813_TOSHIBA-THGBMJG6C1LBAIL_C524518.pdf</datasheet>
+      <fields>
+        <field name="Description">EMMC FLASH MODULE, 256GBIT 153FBGA</field>
+        <field name="Manufacturer">KIOXIA</field>
+        <field name="Part Number">THGAMRG8T13BAIL</field>
+        <field name="Price [1k]">11</field>
+      </fields>
+      <libsource lib="emms_key" part="EMMC_THGBMJG" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60743CF5</tstamp>
+    </comp>
+    <comp ref="B1">
+      <value>Micro_SD_Edge_Conn</value>
+      <footprint>emmc_key:MICRO_SD_EDGE</footprint>
+      <libsource lib="emms_key" part="Micro_SD_Edge_Conn" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6074DC02</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 2.2UF 10V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Part Number">C0603C225K8RACTU</field>
+        <field name="Price [1k]">0.059</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607596C1</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 2.2UF 10V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Part Number">C0603C225K8RACTU</field>
+        <field name="Price [1k]">0.059</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60770202</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 2.2UF 10V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Part Number">C0603C225K8RACTU</field>
+        <field name="Price [1k]">0.059</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60773AA6</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>String_hole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="emms_key" part="String_hole" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607B301D</tstamp>
+    </comp>
+    <comp ref="LG1">
+      <value>NEBRA</value>
+      <footprint>emmc_key:NEBRA_LOGO</footprint>
+      <libsource lib="emms_key" part="Logo" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607BEA9F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="emms_key" part="EMMC_THGBMJG">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EMMC_THGBMJG</field>
+      </fields>
+      <pins>
+        <pin num="A3" name="DAT0" type="BiDi"/>
+        <pin num="A4" name="DAT1" type="BiDi"/>
+        <pin num="A5" name="DAT2" type="BiDi"/>
+        <pin num="A6" name="VSS_A6" type="power_in"/>
+        <pin num="B1" name="NC" type="passive"/>
+        <pin num="B2" name="DAT3" type="BiDi"/>
+        <pin num="B3" name="DAT4" type="BiDi"/>
+        <pin num="B4" name="DAT5" type="BiDi"/>
+        <pin num="B5" name="DAT6" type="BiDi"/>
+        <pin num="B6" name="DAT7" type="BiDi"/>
+        <pin num="C1" name="NC" type="passive"/>
+        <pin num="C2" name="VDDI" type="passive"/>
+        <pin num="C4" name="VSSQ_C4" type="power_in"/>
+        <pin num="C5" name="NC" type="passive"/>
+        <pin num="C6" name="VCCQ_C6" type="power_in"/>
+        <pin num="D4" name="NC" type="passive"/>
+        <pin num="E5" name="QRDY" type="output"/>
+        <pin num="E6" name="VCC_E6" type="power_in"/>
+        <pin num="E7" name="VSS_E7" type="power_in"/>
+        <pin num="E9" name="VSF1" type="BiDi"/>
+        <pin num="E10" name="VSF2" type="BiDi"/>
+        <pin num="F5" name="VCC_F5" type="power_in"/>
+        <pin num="F10" name="VSF3" type="BiDi"/>
+        <pin num="G5" name="VSS_G5" type="power_in"/>
+        <pin num="H5" name="RCLK/DS" type="output"/>
+        <pin num="H10" name="VSS_H10" type="power_in"/>
+        <pin num="J5" name="VSS_J5" type="power_in"/>
+        <pin num="J10" name="VCC_J10" type="power_in"/>
+        <pin num="K5" name="RST_N" type="input"/>
+        <pin num="K8" name="VSS_K8" type="power_in"/>
+        <pin num="K9" name="VCC_K9" type="power_in"/>
+        <pin num="K10" name="VSF4" type="BiDi"/>
+        <pin num="M4" name="VCCQ_M4" type="power_in"/>
+        <pin num="M5" name="CMD" type="BiDi"/>
+        <pin num="M6" name="CLK" type="input"/>
+        <pin num="M7" name="NC" type="passive"/>
+        <pin num="N1" name="NC" type="passive"/>
+        <pin num="N2" name="VSSQ_N2" type="power_in"/>
+        <pin num="N4" name="VCCQ_N4" type="power_in"/>
+        <pin num="N5" name="VSSQ_N5" type="power_in"/>
+        <pin num="N6" name="NC" type="passive"/>
+        <pin num="N7" name="NC" type="passive"/>
+        <pin num="P1" name="NC" type="passive"/>
+        <pin num="P3" name="VCCQ_P3" type="power_in"/>
+        <pin num="P4" name="VSSQ_P4" type="power_in"/>
+        <pin num="P5" name="VCCQ_P5" type="power_in"/>
+        <pin num="P6" name="VSSQ_P6" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="emms_key" part="Logo">
+      <fields>
+        <field name="Reference">LG</field>
+        <field name="Value">Logo</field>
+      </fields>
+    </libpart>
+    <libpart lib="emms_key" part="Micro_SD_Edge_Conn">
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">Micro_SD_Edge_Conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="BiDi"/>
+        <pin num="2" name="DAT3/CD" type="BiDi"/>
+        <pin num="3" name="CMD" type="output"/>
+        <pin num="4" name="VDD" type="power_out"/>
+        <pin num="5" name="CLK" type="output"/>
+        <pin num="6" name="VSS" type="power_out"/>
+        <pin num="7" name="DAT0" type="BiDi"/>
+        <pin num="8" name="DAT1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="emms_key" part="String_hole">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">String_hole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="emms_key">
+      <uri>E:\Workspace\Nebra\emmc\Design/emms_key.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U1" pin="G5"/>
+      <node ref="U1" pin="A6"/>
+      <node ref="U1" pin="P6"/>
+      <node ref="U1" pin="C5"/>
+      <node ref="U1" pin="C4"/>
+      <node ref="U1" pin="D4"/>
+      <node ref="U1" pin="P4"/>
+      <node ref="U1" pin="P1"/>
+      <node ref="U1" pin="N7"/>
+      <node ref="U1" pin="N6"/>
+      <node ref="U1" pin="N5"/>
+      <node ref="U1" pin="N2"/>
+      <node ref="U1" pin="N1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="U1" pin="E7"/>
+      <node ref="U1" pin="K8"/>
+      <node ref="U1" pin="J5"/>
+      <node ref="U1" pin="H10"/>
+      <node ref="U1" pin="M7"/>
+      <node ref="B1" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="2" name="/DAT3">
+      <node ref="U1" pin="B1"/>
+      <node ref="B1" pin="2"/>
+      <node ref="U1" pin="B2"/>
+    </net>
+    <net code="3" name="/VDDI">
+      <node ref="U1" pin="C1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="C2"/>
+    </net>
+    <net code="4" name="Net-(U1-PadE10)">
+      <node ref="U1" pin="E10"/>
+    </net>
+    <net code="5" name="Net-(U1-PadB3)">
+      <node ref="U1" pin="B3"/>
+    </net>
+    <net code="6" name="Net-(U1-PadB4)">
+      <node ref="U1" pin="B4"/>
+    </net>
+    <net code="7" name="Net-(U1-PadB5)">
+      <node ref="U1" pin="B5"/>
+    </net>
+    <net code="8" name="Net-(U1-PadB6)">
+      <node ref="U1" pin="B6"/>
+    </net>
+    <net code="9" name="Net-(U1-PadH5)">
+      <node ref="U1" pin="H5"/>
+    </net>
+    <net code="10" name="Net-(U1-PadK5)">
+      <node ref="U1" pin="K5"/>
+    </net>
+    <net code="11" name="Net-(U1-PadE5)">
+      <node ref="U1" pin="E5"/>
+    </net>
+    <net code="12" name="Net-(U1-PadF10)">
+      <node ref="U1" pin="F10"/>
+    </net>
+    <net code="13" name="Net-(U1-PadK10)">
+      <node ref="U1" pin="K10"/>
+    </net>
+    <net code="14" name="Net-(U1-PadE9)">
+      <node ref="U1" pin="E9"/>
+    </net>
+    <net code="15" name="/CMD">
+      <node ref="U1" pin="M5"/>
+      <node ref="B1" pin="3"/>
+    </net>
+    <net code="16" name="/CLK">
+      <node ref="B1" pin="5"/>
+      <node ref="U1" pin="M6"/>
+    </net>
+    <net code="17" name="/DAT1">
+      <node ref="B1" pin="8"/>
+      <node ref="U1" pin="A4"/>
+    </net>
+    <net code="18" name="+3V3">
+      <node ref="B1" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="C6"/>
+      <node ref="U1" pin="P5"/>
+      <node ref="U1" pin="P3"/>
+      <node ref="U1" pin="N4"/>
+      <node ref="U1" pin="E6"/>
+      <node ref="U1" pin="M4"/>
+      <node ref="U1" pin="K9"/>
+      <node ref="U1" pin="J10"/>
+      <node ref="U1" pin="F5"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="19" name="/DAT2">
+      <node ref="B1" pin="1"/>
+      <node ref="U1" pin="A5"/>
+    </net>
+    <net code="20" name="/DAT0">
+      <node ref="U1" pin="A3"/>
+      <node ref="B1" pin="7"/>
+    </net>
+  </nets>
+</export>
