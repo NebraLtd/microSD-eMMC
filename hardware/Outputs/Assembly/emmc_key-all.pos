@@ -1,0 +1,14 @@
+### Module positions - created on 7/5/2021 10:38:32 AM ###
+### Printed by Pcbnew version kicad (5.1.5)-3
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val          Package                                      PosX       PosY       Rot  Side
+C1        2.2uF        C_0402_1005Metric                        110.5800  -117.8000    0.0000  top
+C2        2.2uF        C_0402_1005Metric                        108.5400  -117.7800    0.0000  top
+C3        2.2uF        C_0402_1005Metric                        103.4400  -117.8000  180.0000  top
+C4        2.2uF        C_0402_1005Metric                        100.0400  -122.0400   90.0000  top
+C5        2.2uF        C_0402_1005Metric                        100.0400  -124.8300   90.0000  top
+U1        EMMC_Module  BGA153N50P14X14_1150X1300X80             107.6700  -124.6400  270.0000  top
+U2        TXS0206      BGA20N40P5X4_195X155X50N                 106.0900  -117.2700  270.0000  top
+U3        LDO_1V8      UDFN-4-1EP_1x1mm_P0.65mm_EP0.48x0.48mm   101.2200  -117.3700   90.0000  top
+## End

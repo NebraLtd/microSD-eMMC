@@ -1,3 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LDO_SOT23-3
+D LDO, SOT23-3, 1-IN; 2-OUT; 3-GND
+$ENDCMP
+#
+$CMP NCP177
+D LDO,  1-OUT; 2-GND; 3-EN; 4-IN; 5-EPAD
+$ENDCMP
+#
+$CMP TXS0206
+D Bidirectional  level-shifting voltage translator, BGA-20
+K Level Translator
+F www.ti.com/lit/ds/symlink/txs0206.pdf
+$ENDCMP
+#
 #End Doc Library

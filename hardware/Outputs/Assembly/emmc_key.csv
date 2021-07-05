@@ -1,0 +1,5 @@
+Reference, Quantity, Value, Footprint, Datasheet, Description, Manufacturer, Part Number, Price [1k], Note
+C1 C5 C3 C4 C2 ,5,2.2uF,Capacitor_SMD:C_0402_1005Metric,,CAP CER 2.2UF 10V X7R 0603,Samsung,CL05A225MP5NSNC,0.045,
+U1 ,1,EMMC Module,emmc_key:BGA153N50P14X14_1150X1300X80,https://datasheet.lcsc.com/szlcsc/2004271813_TOSHIBA-THGBMJG6C1LBAIL_C524518.pdf,"EMMC FLASH MODULE, 256GBIT 153FBGA",KIOXIA,THGAMRG8T13BAIL,11,
+U2 ,1,TXS0206,emmc_key:BGA20N40P5X4_195X155X50N,www.ti.com/lit/ds/symlink/txs0206.pdf,"SDIO,MMC Voltage Level Translator Bidirectional",Texas Instruments,TXS0206YFPR,0.84,
+U3 ,1,LDO 1V8,Package_DFN_QFN:UDFN-4-1EP_1x1mm_P0.65mm_EP0.48x0.48mm,https://www.onsemi.com/pdf/datasheet/ncp177-d.pdf,"1V8 Linear Voltage Regulator, 500mA 4-XDFN",ON Semiconductor,NCP177AMX180TCG,0.1,Alternative: GPL622518H4
